@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project automates the setup of a development environment for compass front end development, such as with [the responsive boilerplate](https://stash.hugeinc.com/projects/HT/repos/responsive-boilerplate) project.
+This project automates the setup of a development environment for compass front end development.
 
 ## Requirements
 
@@ -89,7 +89,7 @@ To point the apache server in the VM to your project files, in the Vagrantfile, 
 
 Once that is saved, if you have already run `vagrant up` and have the VM running, to have the new changes reflected, in the VM, run `vagrant provision`
 
-Once that is done, we are ready to go to edit in the host, and test in the virtual machine.  
+Once that is done, we are ready to go to edit in the host, and test in the virtual machine.
 
 To test, navigate to http://localhost:8080 in the host
 
